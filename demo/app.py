@@ -2,8 +2,10 @@ from fastapi import FastAPI, UploadFile, File
 from fastapi.responses import JSONResponse, HTMLResponse, PlainTextResponse
 import json, os, subprocess, pathlib
 from jsonschema import validate, ValidationError
+import datetime, secrets, subprocess, pathlib
 
 BASE = pathlib.Path(__file__).resolve().parent.parent
+SUB = (BASE / submissions); SUB.mkdir(exist_ok=True)
 LOG_SCHEMA = json.loads((BASE / "spec" / "log_schema.json").read_text())
 
 app = FastAPI()
@@ -85,4 +87,22 @@ async def score(logs: UploadFile = File(...)):
         return JSONResponse({"status":"invalid","errors":errs[:10]}, status_code=400)
     out = subprocess.check_output(["python3", str(BASE / "scorer" / "score.py"), str(up)])
     (BASE / "result.json").write_bytes(out)
+    meta = {"ts": datetime.datetime.utcnow().isoformat() + "Z", "orig_filename": logs.filename}
+    name = meta["ts"].replace(":","").replace(".","") + "_" + secrets.token_hex(4) + ".json"
+    (BASE / "submissions" / name).write_text(json.dumps({"meta":meta, "score": json.loads(out)}))
+    subprocess.run(["python3", str(BASE / "leaderboard" / "build.py")], check=False)
     return PlainTextResponse(out.decode("utf-8"))
+
+
+from fastapi.responses import FileResponse, PlainTextResponse
+@app.get("/leaderboard")
+def leaderboard():
+    html = BASE / "leaderboard" / "index.html"
+    if html.exists(): return FileResponse(str(html))
+    return JSONResponse({"error":"leaderboard not built yet"}, status_code=404)
+
+@app.get("/leaderboard.csv", response_class=PlainTextResponse)
+def leaderboard_csv():
+    csvp = BASE / "leaderboard" / "board.csv"
+    if csvp.exists(): return csvp.read_text()
+    return "rank,file,ts,verdict,symbol_tightening,recursion_depth,theory_of_mind,planning_score,memory_depth\n"
