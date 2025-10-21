@@ -1,0 +1,13 @@
+{
+  "type":"object","required":["agent_id","t","state","thought","symbols","emotion"],
+  "properties":{
+    "agent_id":{"type":"string"},
+    "t":{"type":"integer","minimum":0},
+    "state":{"type":"object"},
+    "thought":{"type":"string"},
+    "symbols":{"type":"array","items":{"type":"string"}},
+    "emotion":{"type":"object","required":["valence","arousal"],
+      "properties":{"valence":{"type":"number"},"arousal":{"type":"number"}}}
+  },
+  "additionalProperties":false
+}

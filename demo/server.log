@@ -1,0 +1,8 @@
+INFO:     Started server process [2085065]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:43736 - "GET /result HTTP/1.1" 200 OK
+INFO:     32.143.13.250:0 - "GET / HTTP/1.1" 200 OK
+INFO:     32.143.13.250:0 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     2605:a140:2273:4431::1:0 - "POST /score HTTP/1.1" 200 OK

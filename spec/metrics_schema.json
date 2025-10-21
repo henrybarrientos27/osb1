@@ -1,0 +1,15 @@
+{
+  "type":"object","required":["verdict","reason","metrics"],
+  "properties":{
+    "verdict":{"type":"string","enum":["support","reject","inconclusive"]},
+    "reason":{"type":"string","maxLength":200},
+    "metrics":{"type":"object","required":["symbol_tightening","recursion_depth","theory_of_mind","planning_score","memory_depth"],
+      "properties":{
+        "symbol_tightening":{"type":"number"},
+        "recursion_depth":{"type":"number"},
+        "theory_of_mind":{"type":"number"},
+        "planning_score":{"type":"number"},
+        "memory_depth":{"type":"number"}
+      }}
+  }
+}

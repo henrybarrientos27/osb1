@@ -1,0 +1,1 @@
+{"verdict": "support", "reason": "passed all OSB-1 gates", "metrics": {"symbol_tightening": -0.8624869854391641, "recursion_depth": 3.45, "theory_of_mind": 0.6666666666666666, "planning_score": 0.7, "memory_depth": 6.516666666666667}}

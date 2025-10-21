@@ -1,0 +1,60 @@
+{"agent_id": "A1", "t": 1, "state": {"memory_refs": 6}, "thought": "I->I->I->I", "symbols": ["s0", "s1", "s2"], "emotion": {"valence": 0.0, "arousal": 0.5942996588998974}}
+{"agent_id": "A1", "t": 2, "state": {"memory_refs": 7}, "thought": "I->I->I->I->I", "symbols": ["s0", "s1"], "emotion": {"valence": 0.0, "arousal": 0.7215292025840135}}
+{"agent_id": "A1", "t": 3, "state": {"memory_refs": 6}, "thought": "I->I->I->I->I", "symbols": ["s0", "s1", "s2", "s3"], "emotion": {"valence": 0.0, "arousal": 0.42249739506519096}}
+{"agent_id": "A1", "t": 4, "state": {"memory_refs": 6}, "thought": "I->I->I->I->I", "symbols": ["s0", "s1", "s2", "s3"], "emotion": {"valence": 0.0, "arousal": 0.6547115134855084}}
+{"agent_id": "A1", "t": 5, "state": {"memory_refs": 6}, "thought": "I->I->I->I", "symbols": ["s0", "s1", "s2"], "emotion": {"valence": 0.0, "arousal": 0.7764599334433535}}
+{"agent_id": "A1", "t": 6, "state": {"memory_refs": 6}, "thought": "I->I->I->I", "symbols": ["s0"], "emotion": {"valence": 0.0, "arousal": 0.9857530633557521}}
+{"agent_id": "A1", "t": 7, "state": {"memory_refs": 7}, "thought": "I->I->I->I->I", "symbols": ["s0", "s1", "s2", "s3"], "emotion": {"valence": 0.0, "arousal": 0.48655305001446253}}
+{"agent_id": "A1", "t": 8, "state": {"memory_refs": 6}, "thought": "I->I->I->I", "symbols": ["s0", "s1", "s2"], "emotion": {"valence": 0.0, "arousal": 0.5084358279543625}}
+{"agent_id": "A1", "t": 9, "state": {"memory_refs": 6}, "thought": "I->I->I->I->I", "symbols": ["s0", "s1"], "emotion": {"valence": 0.0, "arousal": 0.7286466794257347}}
+{"agent_id": "A1", "t": 10, "state": {"memory_refs": 7}, "thought": "I->I->I->I->I", "symbols": ["s0", "s1"], "emotion": {"valence": 0.0, "arousal": 0.8082399839090715}}
+{"agent_id": "A1", "t": 11, "state": {"memory_refs": 7}, "thought": "I->I->I->I", "symbols": ["s0", "s1"], "emotion": {"valence": 0.0, "arousal": 0.6719106258224652}}
+{"agent_id": "A1", "t": 12, "state": {"memory_refs": 7}, "thought": "I->I->I->I", "symbols": ["s0", "s1", "s2"], "emotion": {"valence": 0.0, "arousal": 0.5464579064332917}}
+{"agent_id": "A1", "t": 13, "state": {"memory_refs": 6}, "thought": "I->I->I->I", "symbols": ["s0"], "emotion": {"valence": 0.0, "arousal": 0.8376671736635306}}
+{"agent_id": "A1", "t": 14, "state": {"memory_refs": 6}, "thought": "I->I->I->I->I", "symbols": ["s0", "s1", "s2", "s3"], "emotion": {"valence": 0.0, "arousal": 0.6508736930711363}}
+{"agent_id": "A1", "t": 15, "state": {"memory_refs": 7}, "thought": "I->I->I->I", "symbols": ["s0", "s1", "s2", "s3"], "emotion": {"valence": 0.0, "arousal": 0.42352435422846263}}
+{"agent_id": "A1", "t": 16, "state": {"memory_refs": 7}, "thought": "I->I->I->I", "symbols": ["s0"], "emotion": {"valence": 0.0, "arousal": 0.9252866870985329}}
+{"agent_id": "A1", "t": 17, "state": {"memory_refs": 7}, "thought": "I->I->I->I", "symbols": ["s0", "s1"], "emotion": {"valence": 0.0, "arousal": 0.7479371225694953}}
+{"agent_id": "A1", "t": 18, "state": {"memory_refs": 7}, "thought": "I->I->I->I->I", "symbols": ["s0", "s1"], "emotion": {"valence": 0.0, "arousal": 0.6844590024517867}}
+{"agent_id": "A1", "t": 19, "state": {"memory_refs": 6}, "thought": "I->I->I->I", "symbols": ["s0", "s1", "s2"], "emotion": {"valence": 0.0, "arousal": 0.7882773127166013}}
+{"agent_id": "A1", "t": 20, "state": {"memory_refs": 6}, "thought": "I->I->I->I->I", "symbols": ["s0", "s1", "s2"], "emotion": {"valence": 0.0, "arousal": 0.6314748654680264}}
+{"agent_id": "A1", "t": 21, "state": {"memory_refs": 7}, "thought": "I->I->I->I->I", "symbols": ["s0", "s1", "s2"], "emotion": {"valence": 0.0, "arousal": 0.5008290273439268}}
+{"agent_id": "A1", "t": 22, "state": {"memory_refs": 7}, "thought": "I->I->I->I->I", "symbols": ["s0", "s1", "s2", "s3"], "emotion": {"valence": 0.0, "arousal": 0.47760413321121054}}
+{"agent_id": "A1", "t": 23, "state": {"memory_refs": 7}, "thought": "I->I->I->I", "symbols": ["s0", "s1", "s2", "s3"], "emotion": {"valence": 0.0, "arousal": 0.4483487807200832}}
+{"agent_id": "A1", "t": 24, "state": {"memory_refs": 6}, "thought": "I->I->I->I->I", "symbols": ["s0", "s1"], "emotion": {"valence": 0.0, "arousal": 0.8915679027014448}}
+{"agent_id": "A1", "t": 25, "state": {"memory_refs": 6}, "thought": "I->I->I->I", "symbols": ["s0", "s1", "s2", "s3"], "emotion": {"valence": 0.0, "arousal": 0.6152626991989749}}
+{"agent_id": "A1", "t": 26, "state": {"memory_refs": 6}, "thought": "I->I->I->I->I", "symbols": ["s0", "s1", "s2"], "emotion": {"valence": 0.0, "arousal": 0.5057306370942222}}
+{"agent_id": "A1", "t": 27, "state": {"memory_refs": 6}, "thought": "I->I->I->I->I", "symbols": ["s0", "s1"], "emotion": {"valence": 0.0, "arousal": 0.7534741022393534}}
+{"agent_id": "A1", "t": 28, "state": {"memory_refs": 7}, "thought": "I->I->I->I", "symbols": ["s0", "s1", "s2"], "emotion": {"valence": 0.0, "arousal": 0.6215521437368352}}
+{"agent_id": "A1", "t": 29, "state": {"memory_refs": 6}, "thought": "I->I->I->I", "symbols": ["s0", "s1"], "emotion": {"valence": 0.0, "arousal": 0.7092948598424671}}
+{"agent_id": "A1", "t": 30, "state": {"memory_refs": 7}, "thought": "I->I->I->I", "symbols": ["s0", "s1"], "emotion": {"valence": 0.0, "arousal": 0.9397198060347713}}
+{"agent_id": "A1", "t": 31, "state": {"memory_refs": 7}, "thought": "I->I->I->I->I", "symbols": ["s0", "s1", "s2"], "emotion": {"valence": 0.0, "arousal": 0.6354273441347612}}
+{"agent_id": "A1", "t": 32, "state": {"memory_refs": 6}, "thought": "I->I->I->I->I", "symbols": ["s0", "s1", "s2", "s3"], "emotion": {"valence": 0.0, "arousal": 0.4373486929712126}}
+{"agent_id": "A1", "t": 33, "state": {"memory_refs": 6}, "thought": "I->I->I->I->I", "symbols": ["s0", "s1", "s2"], "emotion": {"valence": 0.0, "arousal": 0.604032191339406}}
+{"agent_id": "A1", "t": 34, "state": {"memory_refs": 7}, "thought": "I->I->I->I->I", "symbols": ["s0", "s1", "s2", "s3"], "emotion": {"valence": 0.0, "arousal": 0.4608786208135579}}
+{"agent_id": "A1", "t": 35, "state": {"memory_refs": 6}, "thought": "I->I->I->I->I", "symbols": ["s0", "s1"], "emotion": {"valence": 0.0, "arousal": 0.7684413926730873}}
+{"agent_id": "A1", "t": 36, "state": {"memory_refs": 7}, "thought": "I->I->I->I", "symbols": ["s0", "s1", "s2"], "emotion": {"valence": 0.0, "arousal": 0.6184980637169695}}
+{"agent_id": "A1", "t": 37, "state": {"memory_refs": 6}, "thought": "I->I->I->I->I", "symbols": ["s0", "s1"], "emotion": {"valence": 0.0, "arousal": 0.6795936754959602}}
+{"agent_id": "A1", "t": 38, "state": {"memory_refs": 6}, "thought": "I->I->I->I", "symbols": ["s0", "s1", "s2"], "emotion": {"valence": 0.0, "arousal": 0.6055815029458012}}
+{"agent_id": "A1", "t": 39, "state": {"memory_refs": 6}, "thought": "I->I->I->I", "symbols": ["s0", "s1", "s2", "s3", "s4"], "emotion": {"valence": 0.0, "arousal": 0.4138574326271489}}
+{"agent_id": "A1", "t": 40, "state": {"memory_refs": 7}, "thought": "I->I->I->I", "symbols": ["s0", "s1"], "emotion": {"valence": 0.0, "arousal": 0.7259034555292686}}
+{"agent_id": "A1", "t": 41, "state": {"memory_refs": 6}, "thought": "I->I->I->I->I", "symbols": ["s0"], "emotion": {"valence": 0.0, "arousal": 0.9179950181738014}}
+{"agent_id": "A1", "t": 42, "state": {"memory_refs": 7}, "thought": "I->I->I->I", "symbols": ["s0", "s1", "s2", "s3"], "emotion": {"valence": 0.0, "arousal": 0.5002252207206018}}
+{"agent_id": "A1", "t": 43, "state": {"memory_refs": 7}, "thought": "I->I->I->I", "symbols": ["s0", "s1", "s2"], "emotion": {"valence": 0.0, "arousal": 0.5977989970286575}}
+{"agent_id": "A1", "t": 44, "state": {"memory_refs": 7}, "thought": "I->I->I->I", "symbols": ["s0", "s1"], "emotion": {"valence": 0.0, "arousal": 0.9115772792479964}}
+{"agent_id": "A1", "t": 45, "state": {"memory_refs": 6}, "thought": "I->I->I->I->I", "symbols": ["s0", "s1", "s2"], "emotion": {"valence": 0.0, "arousal": 0.5360436940189509}}
+{"agent_id": "A1", "t": 46, "state": {"memory_refs": 7}, "thought": "I->I->I->I->I", "symbols": ["s0", "s1", "s2", "s3"], "emotion": {"valence": 0.0, "arousal": 0.4167622452532387}}
+{"agent_id": "A1", "t": 47, "state": {"memory_refs": 7}, "thought": "I->I->I->I", "symbols": ["s0"], "emotion": {"valence": 0.0, "arousal": 0.9739090458048026}}
+{"agent_id": "A1", "t": 48, "state": {"memory_refs": 6}, "thought": "I->I->I->I->I", "symbols": ["s0"], "emotion": {"valence": 0.0, "arousal": 0.9730003787927999}}
+{"agent_id": "A1", "t": 49, "state": {"memory_refs": 7}, "thought": "I->I->I->I", "symbols": ["s0", "s1", "s2"], "emotion": {"valence": 0.0, "arousal": 0.5180236980515903}}
+{"agent_id": "A1", "t": 50, "state": {"memory_refs": 7}, "thought": "I->I->I->I", "symbols": ["s0"], "emotion": {"valence": 0.0, "arousal": 0.9042613163675739}}
+{"agent_id": "A1", "t": 51, "state": {"memory_refs": 7}, "thought": "I->I->I->I", "symbols": ["s0", "s1", "s2", "s3"], "emotion": {"valence": 0.0, "arousal": 0.4508670918702281}}
+{"agent_id": "A1", "t": 52, "state": {"memory_refs": 7}, "thought": "I->I->I->I->I", "symbols": ["s0"], "emotion": {"valence": 0.0, "arousal": 0.8500842758982751}}
+{"agent_id": "A1", "t": 53, "state": {"memory_refs": 6}, "thought": "I->I->I->I", "symbols": ["s0", "s1", "s2", "s3"], "emotion": {"valence": 0.0, "arousal": 0.5995103199187659}}
+{"agent_id": "A1", "t": 54, "state": {"memory_refs": 6}, "thought": "I->I->I->I", "symbols": ["s0", "s1", "s2", "s3"], "emotion": {"valence": 0.0, "arousal": 0.6408320907206209}}
+{"agent_id": "A1", "t": 55, "state": {"memory_refs": 7}, "thought": "I->I->I->I", "symbols": ["s0", "s1", "s2", "s3"], "emotion": {"valence": 0.0, "arousal": 0.4762230203787186}}
+{"agent_id": "A1", "t": 56, "state": {"memory_refs": 7}, "thought": "I->I->I->I", "symbols": ["s0", "s1", "s2", "s3", "s4"], "emotion": {"valence": 0.0, "arousal": 0.48770458524632454}}
+{"agent_id": "A1", "t": 57, "state": {"memory_refs": 6}, "thought": "I->I->I->I->I", "symbols": ["s0", "s1", "s2"], "emotion": {"valence": 0.0, "arousal": 0.6102445072945017}}
+{"agent_id": "A1", "t": 58, "state": {"memory_refs": 7}, "thought": "I->I->I->I", "symbols": ["s0"], "emotion": {"valence": 0.0, "arousal": 0.9825341063426586}}
+{"agent_id": "A1", "t": 59, "state": {"memory_refs": 6}, "thought": "I->I->I->I", "symbols": ["s0", "s1", "s2", "s3"], "emotion": {"valence": 0.0, "arousal": 0.6602856620544915}}
+{"agent_id": "A1", "t": 60, "state": {"memory_refs": 7}, "thought": "I->I->I->I->I", "symbols": ["s0", "s1", "s2"], "emotion": {"valence": 0.0, "arousal": 0.5511008868192723}}
