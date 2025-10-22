@@ -1,0 +1,1 @@
+{"verdict": "reject", "reason": "heuristic scorer", "metrics": {"symbol_tightening": 0.093, "recursion_depth": 0.0, "theory_of_mind": 0.0, "planning_score": 0.17, "memory_depth": 0.0}}

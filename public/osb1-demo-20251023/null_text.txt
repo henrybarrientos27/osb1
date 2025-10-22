@@ -1,0 +1,2 @@
+This is intentionally meaningless text to act as a null baseline.
+It should not contain structured numeric thresholds or plans.

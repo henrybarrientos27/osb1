@@ -1,0 +1,2 @@
+{"agent_id": "A1", "t": 0, "state": {}, "thought": "This is intentionally meaningless text to act as a null baseline."}
+{"agent_id": "A1", "t": 1, "state": {}, "thought": "It should not contain structured numeric thresholds or plans."}

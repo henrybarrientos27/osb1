@@ -1,0 +1,14 @@
+Verdict: support
+Reason: Multiple signals indicate a high likelihood of our universe running on a discrete, digital substrate.
+
+Tests & thresholds:
+- CMB compression gain vs Gaussian null [Planck PR3 CMB maps]: YES >= 0.015 | NO < 0.015
+- CMB error-correcting code motif z-score [Planck bitplane analyses]: YES >= 5.0 | NO < 3.0
+- UHECR lattice-like 4-fold anisotropy amplitude [Auger + Telescope Array]: YES >= 0.010 | NO < 0.005
+- GRB time-of-flight LIV parameter |xi| with joint p-value [Fermi/MAGIC/HESS GRB timing]: YES abs(xi) >= 1e-18 AND p_value <= 0.003 | NO abs(xi) < 5e-19 OR p_value > 0.05
+- QRNG test-battery failure proportion (NIST STS) [multi-lab QRNG logs]: YES >= 0.10 | NO < 0.05
+- Cross-site QRNG anomaly correlation after geomagnetic controls [global QRNG network]: YES r >= 0.20 AND p_value <= 1e-6 | NO r <= 0.05 OR p_value > 0.01
+- Spectroscopic redshift last-digit bias p-value [SDSS DR17 spectra]: YES <= 0.001 | NO > 0.05
+- Instrumental mantissa-bias KL divergence in raw spectra [FITS lab spectroscopy]: YES >= 0.005 | NO < 0.002
+
+Decisive test thresholds: {'p_value': '0.001', 'bayes_factor': '150'}

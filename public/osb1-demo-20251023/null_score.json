@@ -1,0 +1,1 @@
+{"verdict": "inconclusive", "reason": "heuristic scorer", "metrics": {"symbol_tightening": 0.0, "recursion_depth": 0.0, "theory_of_mind": 0.5, "planning_score": 0.5, "memory_depth": 0.0}}
